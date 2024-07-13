@@ -3,14 +3,20 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #DBB5B5;
 }
 
 h1 {
     font-size: 5rem;
+    background-color: #C39898;
+    border-radius: 35px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 hr {
-    border: 2px solid black;
+    border: 3px solid #987070;
 }
 
 .all-color {
