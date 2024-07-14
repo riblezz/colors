@@ -1,5 +1,4 @@
-* {
-    text-align: center;
+body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -7,7 +6,8 @@
 }
 
 h1 {
-    font-size: 5rem;
+    text-align: center;
+    font-size: 3rem;
     background-color: #C39898;
     border-radius: 35px;
     padding: 10px;
@@ -20,13 +20,24 @@ hr {
 }
 
 .all-color {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     box-shadow: 8px 8px 13px 2px black;
+    margin-top: 10px;
+    text-align: center;
     
 }
 
 .colorsName {
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1rem;
+    padding: 10px;
+    text-shadow: 1px 1px grey;
+}
+
+.box > .boxColor {
+    background-color: #C39898;
+    border-radius: 50px;
+    margin: 0px 50px;
+    text-align: center;
 }
