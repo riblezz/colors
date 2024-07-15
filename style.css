@@ -1,7 +1,9 @@
 body {
+    margin: 0;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: #ffe0de ;
+    text-shadow: 1px 1px #582829;
     font-style: normal;
     background-color: #DBB5B5;
     text-align: center;
@@ -14,9 +16,9 @@ body {
 .box > .boxColor {
     background-color: #C39898;
     width: 400px;
-    height: 250px;
+    height: 200px;
     border-radius: 50px;
-    margin: 5px 40px;
+    margin: 5px 25px 5px 0px;
     display: inline-block;
     position: relative;
     cursor: pointer;
@@ -24,14 +26,13 @@ body {
 }
 
 .all-color {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     box-shadow: 10px 10px 10px 1px #582829;
     position: absolute;
     left: 25px;
-    display: inline-block;
-    top: 15px;
-
+    top: 10%;
+    margin: 0;
 }
 
 
@@ -51,20 +52,16 @@ hr {
 
 .colorsName {
     font-weight: 800;
-    font-size: 2rem;
-    text-shadow: 1px 1px #582829;
-    display: inline-block;
+    font-size: 30px;
     margin: 0;
-    position: absolute;
-    left: 260px;
-    top: 60px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 90px;
+    top: 35%;
+    
 }
 
-.boxx {
-    width: 200px;
-    height: 200px;
-    background: linear-gradient(rgb(255, 0, 0), rgb(111, 1, 1));
-}
 
 .boxColor:hover {
     opacity: 50%;
