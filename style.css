@@ -19,6 +19,7 @@ body {
     margin: 5px 40px;
     display: inline-block;
     position: relative;
+    cursor: pointer;
     
 }
 
@@ -57,4 +58,14 @@ hr {
     position: absolute;
     left: 260px;
     top: 60px;
+}
+
+.boxx {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(rgb(255, 0, 0), rgb(111, 1, 1));
+}
+
+.boxColor:hover {
+    opacity: 50%;
 }
