@@ -1,9 +1,38 @@
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    color: #ffe0de ;
     font-style: normal;
     background-color: #DBB5B5;
+    text-align: center;
 }
+
+.box-colors {
+    position: relative;
+}
+
+.box > .boxColor {
+    background-color: #C39898;
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+    margin: 5px 40px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.all-color {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 10px 1px #582829;
+    position: absolute;
+    left: 25px;
+    display: inline-block;
+    top: 15px;
+
+}
+
 
 h1 {
     text-align: center;
@@ -19,25 +48,13 @@ hr {
     border: 3px solid #987070;
 }
 
-.all-color {
-    width: 200px;
-    height: 200px;
-    box-shadow: 8px 8px 13px 2px black;
-    margin-top: 10px;
-    text-align: center;
-    
-}
-
 .colorsName {
     font-weight: 800;
-    font-size: 1rem;
-    padding: 10px;
-    text-shadow: 1px 1px grey;
-}
-
-.box > .boxColor {
-    background-color: #C39898;
-    border-radius: 50px;
-    margin: 0px 50px;
-    text-align: center;
+    font-size: 2rem;
+    text-shadow: 1px 1px #582829;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    left: 260px;
+    top: 60px;
 }
