@@ -7,19 +7,14 @@ body {
     text-align: center;
 }
 
-.container {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 3rem;
-    justify-content: center;
 
-}
 .container > .boxColor {
     background-color: #C39898;
     width: 400px;
     height: 200px;
     border-radius: 50px;
+    margin: 15px 45px 15px 0px;
+    display: inline-block;
     position: relative;
     cursor: pointer;
 }
