@@ -1,58 +1,263 @@
 body {
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    color: #ffe0de ;
-    text-shadow: 1px 1px #582829;
+    margin: 0%;
     background-color: #DBB5B5;
-    text-align: center;
+    color: #ffdfdf;
+    font-family: "Poppins", sans-serif;
 }
 
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-.container > .boxColor {
+}
+
+.box {
     background-color: #C39898;
     width: 400px;
     height: 200px;
-    border-radius: 50px;
-    margin: 15px 45px 15px 0px;
-    display: inline-block;
+    border-radius: 3rem;
     position: relative;
+    margin-bottom: 2rem;
     cursor: pointer;
 }
 
-.all-color {
+img {
     width: 150px;
     height: 150px;
-    box-shadow: 10px 10px 10px 1px #582829;
     position: absolute;
-    left: 10%;
-    top: 10%;
+    top: 1.5rem;
+    left: 1.5rem;
+    box-shadow: 10px 10px 10px 1px #582829;
 }
-
 
 h1 {
+    text-align: center;
     font-size: 3rem;
-    background-color: #C39898;
-    border-radius: 35px;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    text-shadow: 1px 1px #582829;
 }
 
-hr {
-    border: 3px solid #987070;
-}
-
-.colorsName {
-    font-size: 30px;
-    margin: 0;
-    display: inline-block;
+h2 {
     position: relative;
-    left: 90px;
-    top: 35%;
+    top: 3rem;
+    left: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 1px 1px #582829;
 }
 
+p {
+    margin: 10px;
+}
 
-.boxColor:hover {
-    background-color: #a37272;
-    color: #fccbc7;
+.infoRed {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.infoOrange {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.infoYellow {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.infoGreen {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    right: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.infoBlue {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.infoDark-blue {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.infoPurple {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.infoPink {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    right: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.infoBrown {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.infoGray {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.infoBlack {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.infoWhite {
+    display: none;
+    min-width: 300px;
+    background-color: rgb(108, 54, 54);
+    position: absolute;
+    right: 90%;
+    top: 20%;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    opacity: 80%;
+}
+
+.box:hover {
+    background: #a37272;
+    color:#fccbc7;
+}
+
+.red:hover .infoRed {
+    display: block
+    
+}
+
+.orange:hover .infoOrange {
+    display: block;
+}
+
+.yellow:hover .infoYellow {
+    display: block;
+}
+
+.green:hover .infoGreen {
+    display: block;
+}
+
+.blue:hover .infoBlue {
+    display: block;
+}
+
+.dark-blue:hover .infoDark-blue {
+    display: block;
+}
+
+.purple:hover .infoPurple {
+    display: block;
+}
+
+.pink:hover .infoPink {
+    display: block;
+}
+
+.brown:hover .infoBrown {
+    display: block;
+}
+
+.gray:hover .infoGray {
+    display: block;
+}
+
+.black:hover .infoBlack {
+    display: block;
+}
+
+.white:hover .infoWhite {
+    display: block;
 }
