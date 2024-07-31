@@ -11,6 +11,7 @@ body {
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
 
 }
 
@@ -41,9 +42,9 @@ h1 {
 
 h2 {
     position: relative;
+    display: inline-block;
     top: 3rem;
     left: 5rem;
-    text-align: center;
     font-size: 2rem;
     text-shadow: 1px 1px #582829;
 }
